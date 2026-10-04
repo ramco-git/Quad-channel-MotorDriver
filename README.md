@@ -28,10 +28,10 @@
 | PWM-2(内臓MCUから) | PWM(PC7) DIR(PB13) | - | - | TIM8-CH2 |
 | PWM-3(内臓MCUから) | PWM(PC8) DIR(PA10) | - | - | TIM8-CH3 |
 | PWM-4(内臓MCUから) | PWM(PC9) DIR(PA11) | - | - | TIM8-CH4 |
-| PWM-1(外部入力から) | - | B03B-XASK-1 | J14 | - |
-| PWM-2(外部入力から) | - | B03B-XASK-1 | J15 | - |
-| PWM-3(外部入力から) | - | B03B-XASK-1 | J16 | - |
-| PWM-4(外部入力から) | - | B03B-XASK-1 | J17 | - |
+| PWM-1(外部入力から) | DIR(1ピン) PWM(2ピン) GND(3ピン) | B03B-XASK-1 | J14 | - |
+| PWM-2(外部入力から) | DIR(1ピン) PWM(2ピン) GND(3ピン) | B03B-XASK-1 | J15 | - |
+| PWM-3(外部入力から) | DIR(1ピン) PWM(2ピン) GND(3ピン) | B03B-XASK-1 | J16 | - |
+| PWM-4(外部入力から) | DIR(1ピン) PWM(2ピン) GND(3ピン) | B03B-XASK-1 | J17 | - |
 | マイコン電源入力 | 12V(未使用,1ピン) 5V(2ピン) GND(3ピン) | B3B-XH-A | J7 | - |
 | ユーザーLED | 赤(PB14) 緑(PA3) 青(PB15) | | D2 | TIMに接続されている |
 | ユーザーボタン | (PC15) | - | SW2 | - | マイコン側でプルアップする |
