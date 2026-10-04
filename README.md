@@ -20,21 +20,21 @@
 |-:|-|-|-|-|
 | CAN | TX(PB9) RX(PB8) | S04B-XASK-1,B04B-XASK-1 | J18,J19 | 
 | UART | TX(PB10) RX(PB11) | DF1BZ-4P-2.5DSA | J6 |
-| Encoder-1 | A(PA8) B(PA9) Z(PC0) | S05B-PASK-2 | J1 | TIM1 |
-| Encoder-2 | A(PA0) B(PA1) Z(PC1) | S05B-PASK-2 | J2 | TIM2 |
-| Encoder-3 | A(PA6) B(PA7) Z(PC2) | S05B-PASK-2 | J3 | TIM3 |
-| Encoder-4 | A(PB6) B(PB7) Z(PC3) | S05B-PASK-2 | J4 | TIM4 |
-| PWM-1(From built in MCU | PWM(PC6) DIR(PB12) | - | - | TIM8-CH1 |
-| PWM-2(From built in MCU | PWM(PC7) DIR(PB13) | - | - | TIM8-CH2 |
-| PWM-3(From built in MCU | PWM(PC8) DIR(PA10) | - | - | TIM8-CH3 |
-| PWM-4(From built in MCU | PWM(PC9) DIR(PA11) | - | - | TIM8-CH4 |
-| PWM-1(From external input) | - | B03B-XASK-1 | J14 | - |
-| PWM-2(From external input) | - | B03B-XASK-1 | J15 | - |
-| PWM-3(From external input) | - | B03B-XASK-1 | J16 | - |
-| PWM-4(From external input) | - | B03B-XASK-1 | J17 | - |
+| エンコーダ-1 | A(PA8) B(PA9) Z(PC0) | S05B-PASK-2 | J1 | TIM1 |
+| エンコーダ-2 | A(PA0) B(PA1) Z(PC1) | S05B-PASK-2 | J2 | TIM2 |
+| エンコーダ-3 | A(PA6) B(PA7) Z(PC2) | S05B-PASK-2 | J3 | TIM3 |
+| エンコーダ-4 | A(PB6) B(PB7) Z(PC3) | S05B-PASK-2 | J4 | TIM4 |
+| PWM-1(内臓MCUから) | PWM(PC6) DIR(PB12) | - | - | TIM8-CH1 |
+| PWM-2(内臓MCUから) | PWM(PC7) DIR(PB13) | - | - | TIM8-CH2 |
+| PWM-3(内臓MCUから) | PWM(PC8) DIR(PA10) | - | - | TIM8-CH3 |
+| PWM-4(内臓MCUから) | PWM(PC9) DIR(PA11) | - | - | TIM8-CH4 |
+| PWM-1(外部入力から) | - | B03B-XASK-1 | J14 | - |
+| PWM-2(外部入力から) | - | B03B-XASK-1 | J15 | - |
+| PWM-3(外部入力から) | - | B03B-XASK-1 | J16 | - |
+| PWM-4(外部入力から) | - | B03B-XASK-1 | J17 | - |
 | マイコン電源入力 | 12V(未使用,1ピン) 5V(2ピン) GND(3ピン) | B3B-XH-A | J7 | - |
-| ユーザーLED | Red(PB14) Green(PA3) Blue(PB15) | | D2 | TIMに接続されている |
-| ユーザーボタン | (PC15) | - | SW2 | - | プルアップ入力 |
+| ユーザーLED | 赤(PB14) 緑(PA3) 青(PB15) | | D2 | TIMに接続されている |
+| ユーザーボタン | (PC15) | - | SW2 | - | マイコン側でプルアップする |
 
 ## 内部ファームウェア
 ・現在調整中です。しばらくお待ちください。
