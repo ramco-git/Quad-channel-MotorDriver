@@ -19,7 +19,6 @@
 |-:|-|-|-|-|
 | CAN | TX(PB9) RX(PB8) | JST-XA_4 | J18,J19 | 
 | UART | TX(PB10) RX(PB11) | DF1BZ_4 | J6 |
-
 | Encoder-1 | A(PA8) B(PA9) Z(PC0) | JST-PA_5 | J1 | TIM1 |
 | Encoder-2 | A(PA0) B(PA1) Z(PC1) | JST-PA_5 | J2 | TIM2 |
 | Encoder-3 | A(PA6) B(PA7) Z(PC2) | JST-PA_5 | J3 | TIM3 |
